@@ -1,4 +1,4 @@
-# nodejs-express-template
+# node-express-template
 
 node.js template including express, pug, webpack, docker configuration, jquery, bootstrap
 

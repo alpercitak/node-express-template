@@ -2,8 +2,8 @@ const express = require("express");
 
 const config = {
     "dirname": __dirname,
-    "name": "nodejs-express-template",
-    "title": "node.js express template",
+    "name": "node-express-template",
+    "title": "node express template",
     "http": {
         port: 8001
     }
