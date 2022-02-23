@@ -1,11 +1,12 @@
 const express = require("express");
+require("dotenv").config();
 
 const config = {
     "dirname": __dirname,
-    "name": "node-express-template",
-    "title": "node express template",
+    "name": process.env.NAME,
+    "title": process.env.NAME_READABLE,
     "http": {
-        port: 8001
+        port: process.env.PORT
     }
 };
 

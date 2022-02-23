@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: node-express-template:local
+    image: ${NAME}:local
     volumes:
       - ./:/usr/app/
     ports:
-      - 8001:8001
+      - ${PORT}:${PORT}

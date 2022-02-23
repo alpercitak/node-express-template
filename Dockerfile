@@ -9,5 +9,5 @@ RUN npm i -g nodemon
 
 COPY . .
 
-EXPOSE 8001
+EXPOSE ${PORT}
 CMD [ "nodemon", "app.js"]
