@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nodejs-express-template:local
+    volumes:
+      - ./:/usr/app/
+    ports:
+      - 8001:8001
