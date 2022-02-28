@@ -1,6 +1,8 @@
 {
 	"name": "node-express-template",
 	"version": "0.0.2",
+    "private": true,
+    "license": "UNLICENSED",
 	"main": "app.js",
 	"author": "Alper Çıtak <citak.alper@gmail.com>",
 	"scripts": {
