@@ -7,15 +7,14 @@ create a file named ```.env``` and set environment variables as in ```.env.examp
 run the project locally
 
 ```
-npm i
+npm i (or yarn install)
 npm run start
 ```
 
 run the project on docker
 
 ```
-docker-compose build
-docker-compose up
+docker-compose up --build
 ```
 
 bundling assets
