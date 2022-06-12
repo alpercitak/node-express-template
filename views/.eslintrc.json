@@ -1,0 +1,15 @@
+{
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "env": {
+        "browser": true,
+        "jquery": true
+      },
+      "parserOptions": {
+        "sourceType": "module"
+      },
+      "globals": {}
+    }
+  ]
+}
