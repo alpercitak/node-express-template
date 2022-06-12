@@ -9,6 +9,7 @@
   "repository": "https://github.com/alpercitak/node-express-template.git",
   "scripts": {
     "start": "node app.js",
+    "start:dev": "nodemon app.js & npx webpack",
     "format": "prettier --write .",
     "lint": "eslint . --fix",
     "prepare": "husky install"
@@ -35,6 +36,7 @@
     "less-loader": "^6.1.0",
     "lint-staged": "^13.0.1",
     "mini-css-extract-plugin": "^0.9.0",
+    "nodemon": "^2.0.16",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "prettier": "^2.6.2",
     "style-loader": "^1.2.1",
@@ -46,6 +48,13 @@
     "**/*.{js,jsx,ts,tsx,json}": [
       "yarn format",
       "yarn lint"
+    ]
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "public",
+      "views",
+      "package.json"
     ]
   }
 }
