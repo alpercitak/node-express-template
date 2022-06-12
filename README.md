@@ -2,13 +2,13 @@
 
 node.js template including express, pug, webpack, docker configuration, jquery, bootstrap
 
-create a file named ```.env``` and set environment variables as in ```.env.example```
+create a file named `.env` and set environment variables as in `.env.example`
 
 run the project locally
 
 ```
 npm i (or yarn install)
-npm run start
+npm run start:dev (yarn start:dev)
 ```
 
 run the project on docker
@@ -22,4 +22,3 @@ bundling assets
 ```
 npx webpack
 ```
-

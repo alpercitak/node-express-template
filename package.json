@@ -1,32 +1,60 @@
 {
-	"name": "node-express-template",
-	"version": "0.0.2",
-    "private": true,
-    "license": "UNLICENSED",
-	"main": "app.js",
-	"author": "Alper Çıtak <citak.alper@gmail.com>",
-	"scripts": {
-		"start": "node app.js"
-	},
-	"dependencies": {
-		"dotenv": "^16.0.0",
-		"express": "^4.17.2",
-		"pug": "^3.0.2"
-	},
-	"devDependencies": {
-		"@babel/core": "^7.10.3",
-		"@babel/plugin-transform-runtime": "^7.10.3",
-		"@babel/preset-env": "^7.10.3",
-		"@babel/preset-react": "^7.10.4",
-		"babel-loader": "^8.1.0",
-		"css-loader": "^3.5.3",
-		"file-loader": "^6.0.0",
-		"less-loader": "^6.1.0",
-		"mini-css-extract-plugin": "^0.9.0",
-		"optimize-css-assets-webpack-plugin": "^5.0.3",
-		"style-loader": "^1.2.1",
-		"webpack": "^4.43.0",
-		"webpack-clean-obsolete-chunks": "^0.4.0",
-		"webpack-cli": "^3.3.11"
-	}
+  "name": "node-express-template",
+  "version": "0.0.3",
+  "private": true,
+  "license": "UNLICENSED",
+  "main": "app.js",
+  "author": "Alper Çıtak <citak.alper@gmail.com>",
+  "description": "Node Express Template",
+  "repository": "https://github.com/alpercitak/node-express-template.git",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js & npx webpack",
+    "format": "prettier --write .",
+    "lint": "eslint . --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.4",
+    "@prettier/plugin-pug": "^2.1.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "file-loader": "^6.0.0",
+    "husky": "^8.0.0",
+    "less-loader": "^6.1.0",
+    "lint-staged": "^13.0.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "nodemon": "^2.0.16",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "prettier": "^2.6.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-clean-obsolete-chunks": "^0.4.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json}": [
+      "yarn format",
+      "yarn lint"
+    ]
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "public",
+      "views",
+      "package.json"
+    ]
+  }
 }
