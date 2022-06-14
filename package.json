@@ -1,11 +1,11 @@
 {
   "name": "node-express-template",
+  "description": "Node Express Template",
+  "author": "Alper Çıtak <citak.alper@gmail.com>",
   "version": "0.0.3",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "app.js",
-  "author": "Alper Çıtak <citak.alper@gmail.com>",
-  "description": "Node Express Template",
   "repository": "https://github.com/alpercitak/node-express-template.git",
   "scripts": {
     "start": "node app.js",
