@@ -1,12 +1,15 @@
-FROM node:14-alpine
+FROM node:18-alpine
+
+RUN npm i -g pnpm
 
 WORKDIR /usr/app
 
 COPY ./package*.json .
-COPY ./yarn.lock .
+COPY ./pnpm-lock.yaml .
 
-RUN yarn install --immutable --immutable-cache --check-cache
-RUN yarn global add nodemon
+RUN pnpm i --prod --frozen-lockfile --ignore-scripts=true
+
+COPY . .
 
 EXPOSE ${PORT}
-CMD [ "nodemon", "-L", "app.js"]
+CMD [ "node", "app.js" ]

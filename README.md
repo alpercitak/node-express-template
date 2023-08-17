@@ -8,7 +8,7 @@ run the project locally
 
 ```
 npm i (yarn install | pnpm install)
-npm run start:dev (yarn start:dev | pnpm start:dev)
+npm run dev (yarn dev | pnpm dev)
 ```
 
 run the project on docker
