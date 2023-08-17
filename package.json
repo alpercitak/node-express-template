@@ -2,7 +2,7 @@
   "name": "node-express-template",
   "description": "Node Express Template",
   "author": "Alper Çıtak <citak.alper@gmail.com>",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "license": "MIT",
   "main": "app.js",
