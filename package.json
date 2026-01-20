@@ -53,5 +53,6 @@
       "pnpm format",
       "pnpm lint"
     ]
-  }
+  },
+  "packageManager": "pnpm@10.28.1"
 }
