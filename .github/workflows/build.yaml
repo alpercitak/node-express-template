@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: ["**"]
+    branches: ['**']
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -21,8 +21,8 @@ jobs:
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v6
         with:
-          node-version: "24"
-          cache: "pnpm"
+          node-version: '24'
+          cache: 'pnpm'
       - run: pnpm i --frozen-lockfile
       - uses: alpercitak/fasttrack@v0.1.13-alpha
         with:
