@@ -65,7 +65,7 @@ importers:
         version: 9.1.7
       less-loader:
         specifier: ^12.3.0
-        version: 12.3.1(less@4.6.2)(webpack@5.105.4)
+        version: 12.3.2(less@4.6.2)(webpack@5.105.4)
       lint-staged:
         specifier: ^16.1.0
         version: 16.3.3
@@ -1600,8 +1600,8 @@ packages:
   last-call-webpack-plugin@3.0.0:
     resolution: {integrity: sha512-7KI2l2GIZa9p2spzPIVZBYyNKkN+e/SQPpnjlTiPhdbDW3F86tdKKELxKpzJ5sgU19wQWsACULZmpTPYHeWO5w==}
 
-  less-loader@12.3.1:
-    resolution: {integrity: sha512-JZZmG7gMzoDP3VGeEG8Sh6FW5wygB5jYL7Wp29FFihuRTsIBacqO3LbRPr2yStYD11riVf13selLm/CPFRDBRQ==}
+  less-loader@12.3.2:
+    resolution: {integrity: sha512-uLV5c702ff2jBvO7qewpkLRzkh/I9QW07ur2NKkv8TVTrtX2lrKjEbEU/LLXAn7cgpCIBbkfyUm4qYXCQs5/+w==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       '@rspack/core': 0.x || ^1.0.0 || ^2.0.0-0
@@ -4252,7 +4252,7 @@ snapshots:
       lodash: 4.17.23
       webpack-sources: 1.4.3
 
-  less-loader@12.3.1(less@4.6.2)(webpack@5.105.4):
+  less-loader@12.3.2(less@4.6.2)(webpack@5.105.4):
     dependencies:
       less: 4.6.2
     optionalDependencies:
