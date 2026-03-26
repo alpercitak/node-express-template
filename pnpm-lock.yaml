@@ -86,13 +86,13 @@ importers:
         version: 5.4.0(webpack@5.105.4)
       webpack:
         specifier: ^5.99.9
-        version: 5.105.4(webpack-cli@7.0.0)
+        version: 5.105.4(webpack-cli@7.0.2)
       webpack-clean-obsolete-chunks:
         specifier: ^0.4.0
         version: 0.4.0
       webpack-cli:
         specifier: ^7.0.0
-        version: 7.0.0(webpack@5.105.4)
+        version: 7.0.2(webpack@5.105.4)
 
 packages:
 
@@ -2454,8 +2454,8 @@ packages:
   webpack-clean-obsolete-chunks@0.4.0:
     resolution: {integrity: sha512-VSaM/iVkbtRgp3mBIHfuZ0Pm/ekWL3jR5b55+dOnlon77hkBsNfuylkz9UqvUPA1AIljrbtiFpdRuoDtu7v5/A==}
 
-  webpack-cli@7.0.0:
-    resolution: {integrity: sha512-NbM62WodkUPXQGR/Ip3pSFsFUKJSseDIFr2H5Z1+4fHwB9X4cO10knPShIopFqAHZa8a5Q8pdtmtE6C12/mlMQ==}
+  webpack-cli@7.0.2:
+    resolution: {integrity: sha512-dB0R4T+C/8YuvM+fabdvil6QE44/ChDXikV5lOOkrUeCkW5hTJv2pGLE3keh+D5hjYw8icBaJkZzpFoaHV4T+g==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
@@ -3466,7 +3466,7 @@ snapshots:
       '@babel/core': 7.29.0
       find-up: 5.0.0
     optionalDependencies:
-      webpack: 5.105.4(webpack-cli@7.0.0)
+      webpack: 5.105.4(webpack-cli@7.0.2)
 
   babel-plugin-polyfill-corejs2@0.4.16(@babel/core@7.29.0):
     dependencies:
@@ -3663,7 +3663,7 @@ snapshots:
       postcss-value-parser: 4.2.0
       semver: 7.7.4
     optionalDependencies:
-      webpack: 5.105.4(webpack-cli@7.0.0)
+      webpack: 5.105.4(webpack-cli@7.0.2)
 
   css-select@4.3.0:
     dependencies:
@@ -3974,7 +3974,7 @@ snapshots:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.3.0
-      webpack: 5.105.4(webpack-cli@7.0.0)
+      webpack: 5.105.4(webpack-cli@7.0.2)
 
   finalhandler@2.1.1:
     dependencies:
@@ -4230,7 +4230,7 @@ snapshots:
     dependencies:
       less: 4.6.2
     optionalDependencies:
-      webpack: 5.105.4(webpack-cli@7.0.0)
+      webpack: 5.105.4(webpack-cli@7.0.2)
 
   less@4.6.2:
     dependencies:
@@ -4343,7 +4343,7 @@ snapshots:
     dependencies:
       schema-utils: 4.3.3
       tapable: 2.3.2
-      webpack: 5.105.4(webpack-cli@7.0.0)
+      webpack: 5.105.4(webpack-cli@7.0.2)
 
   minimatch@10.2.4:
     dependencies:
@@ -4398,7 +4398,7 @@ snapshots:
       cssnano: 5.1.15(postcss@8.5.8)
       last-call-webpack-plugin: 3.0.0
       postcss: 8.5.8
-      webpack: 5.105.4(webpack-cli@7.0.0)
+      webpack: 5.105.4(webpack-cli@7.0.2)
 
   optionator@0.9.4:
     dependencies:
@@ -4961,7 +4961,7 @@ snapshots:
 
   style-loader@4.0.0(webpack@5.105.4):
     dependencies:
-      webpack: 5.105.4(webpack-cli@7.0.0)
+      webpack: 5.105.4(webpack-cli@7.0.2)
 
   stylehacks@5.1.1(postcss@8.5.8):
     dependencies:
@@ -4999,7 +4999,7 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.46.0
-      webpack: 5.105.4(webpack-cli@7.0.0)
+      webpack: 5.105.4(webpack-cli@7.0.2)
 
   terser@5.46.0:
     dependencies:
@@ -5080,7 +5080,7 @@ snapshots:
     dependencies:
       del: 3.0.0
 
-  webpack-cli@7.0.0(webpack@5.105.4):
+  webpack-cli@7.0.2(webpack@5.105.4):
     dependencies:
       '@discoveryjs/json-ext': 1.0.0
       commander: 14.0.3
@@ -5090,7 +5090,7 @@ snapshots:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.105.4(webpack-cli@7.0.0)
+      webpack: 5.105.4(webpack-cli@7.0.2)
       webpack-merge: 6.0.1
 
   webpack-merge@6.0.1:
@@ -5106,7 +5106,7 @@ snapshots:
 
   webpack-sources@3.3.4: {}
 
-  webpack@5.105.4(webpack-cli@7.0.0):
+  webpack@5.105.4(webpack-cli@7.0.2):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.8
@@ -5134,7 +5134,7 @@ snapshots:
       watchpack: 2.5.1
       webpack-sources: 3.3.4
     optionalDependencies:
-      webpack-cli: 7.0.0(webpack@5.105.4)
+      webpack-cli: 7.0.2(webpack@5.105.4)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
